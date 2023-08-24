@@ -5,4 +5,4 @@
 2. Ersetzen der Schlüssel und Datenbank URL in `.env` unter `app\server\.env` mit der eigenen Authentifizierung für MongoDB
 
 ## Start des Development Servers
-`nom run dev` dies startet sowohl den Webpack Dev Server als auch den NodeJS server
+`npm run dev` dies startet sowohl den Webpack Dev Server als auch den NodeJS server
