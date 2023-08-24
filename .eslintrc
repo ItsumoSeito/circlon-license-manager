@@ -1,0 +1,21 @@
+{
+    "extends": ["airbnb", "prettier"],
+    "plugins": ["html"],
+    "rules": {
+        "linebreak-style": ["error", "windows"],
+        "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+        "no-var": "off",
+        "vars-on-top": "off",
+        "no-use-before-define": [
+            "error",
+            {
+                "functions": false
+            }
+        ],
+        "prefer-arrow-callback": "off",
+        "import/no-mutable-exports": "off",
+        "import/extensions": "off",
+        "import/no-unresolved": ["error", { "caseSensitive": false }],
+        "prefer-const": "off"
+    }
+}
